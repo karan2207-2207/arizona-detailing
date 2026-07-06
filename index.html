@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arizona's Best Car Detailing | Premium Mobile Detailing Phoenix</title>
+<meta name="description" content="Luxury concierge mobile car detailing in Phoenix, Scottsdale &amp; the Valley. Interior &amp; exterior detailing, ceramic coating and paint correction — delivered to your driveway. 15+ years experience, 5/5 rated, BBB accredited.">
+<link rel="canonical" href="https://arizonasbestcd.com/">
+<meta property="og:title" content="Arizona's Best Car Detailing | Premium Mobile Detailing Phoenix">
+<meta property="og:description" content="Luxury concierge mobile car detailing in Phoenix, Scottsdale &amp; the Valley. We bring showroom-grade care to your driveway.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://arizonasbestcd.com/">
+<meta property="og:image" content="assets/photo-bronco.webp">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/webp" href="assets/logo.webp">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDetailing",
+  "name": "Arizona's Best Car Detailing",
+  "image": "https://arizonasbestcd.com/assets/photo-bronco.webp",
+  "url": "https://arizonasbestcd.com/",
+  "telephone": "+16025619400",
+  "priceRange": "$45-$700+",
+  "areaServed": [
+    "Phoenix, AZ", "Scottsdale, AZ", "North Scottsdale, AZ", "Paradise Valley, AZ",
+    "Gilbert, AZ", "Glendale, AZ", "Chandler, AZ", "Mesa, AZ", "Peoria, AZ", "Avondale, AZ"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Phoenix",
+    "addressRegion": "AZ",
+    "addressCountry": "US"
+  },
+  "openingHours": "Mo-Su 07:00-19:00",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "20"
+  },
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=100094406356971",
+    "https://www.instagram.com/arizonasbestcardetailing/",
+    "https://www.tiktok.com/@arizonasbestcardetailing"
+  ]
+}
+</script>
+
+<style>
+.font-display { font-family: 'Space Grotesk', sans-serif; }
+body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: #e4e4e7; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #0a0a0a; }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.35); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.6); }
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.cinematic-vignette {
+  background: radial-gradient(circle, transparent 40%, rgba(10,10,10,0.95) 100%);
+}
+.glass-panel {
+  background: linear-gradient(145deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255,255,255,0.05);
+}
+.neon-glow { box-shadow: 0 0 30px rgba(255, 255, 255, 0.18), inset 0 0 10px rgba(255, 255, 255, 0.12); }
+
+@keyframes blurReveal {
+  0% { opacity: 0; filter: blur(20px); transform: translateY(40px) scale(0.95); }
+  100% { opacity: 1; filter: blur(0); transform: translateY(0) scale(1); }
+}
+@keyframes fadeInNav { 0% { opacity: 0; } 100% { opacity: 1; transform: translateY(0); } }
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
+  transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: transform, opacity;
+}
+.reveal-on-scroll.in-view { opacity: 1; transform: translate3d(0, 0, 0); }
+
+#scroll-progress {
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: transform 120ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.08);
+  color: white;
+  padding: 1.25rem 1rem;
+  width: 100%;
+  border-radius: 0.75rem;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.form-input:focus {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 0 30px rgba(255,255,255,0.15);
+}
+select.form-input option { background-color: #111111; color: white; }
+
+.hairline { border-color: rgba(255,255,255,0.1); }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll { animation: none !important; transition: none !important; opacity: 1 !important; transform: none !important; }
+}
+</style>
+
+<style>
+#main-nav {
+  transition: max-width 0.4s ease-in-out, background 0.3s ease-in-out, backdrop-filter 0.3s ease-in-out;
+}
+#main-nav.scrolled, #main-nav.nav-scrolled {
+  max-width: 1100px;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+#main-nav.scrolled .flex.w-full, #main-nav.nav-scrolled .flex.w-full {
+  padding-top: 0.85rem; padding-bottom: 0.85rem; padding-left: 2.5rem; padding-right: 2.5rem;
+}
+#main-nav.scrolled a.js-nav-link, #main-nav.nav-scrolled a.js-nav-link {
+  font-size: 11px; letter-spacing: 0.18em; transition: all 0.3s ease-in-out;
+}
+#main-nav.scrolled img, #main-nav.nav-scrolled img { height: 26px; transition: all 0.3s ease-in-out; }
+#main-nav.scrolled a[href="#contact"], #main-nav.nav-scrolled a[href="#contact"] {
+  font-size: 10px; padding: 0.5rem 1.2rem; transition: all 0.3s ease-in-out;
+}
+</style>
+
+<style>
+/*
+  ROOT CAUSE of the navbar/hero overlap (fixed previously, kept intact):
+  #global-navigation is `position: fixed`, so it is removed from normal
+  document flow and reserves NO space above the hero section. Rather than
+  guessing a margin, we measure the navbar's true rendered height with JS
+  and expose it as the --nav-clearance custom property. The hero uses
+  `padding-top: var(--nav-clearance)` so it always starts exactly below
+  the navbar at any breakpoint or content size. The value below is only a
+  fallback for the instant before JS runs on first paint.
+*/
+:root { --nav-clearance: 7.5rem; }
+#hero-content { padding-top: var(--nav-clearance); }
+</style>
+</head>
+
+<body class="text-zinc-300 overflow-x-hidden min-h-screen relative selection:bg-white/30 selection:text-white bg-[#0a0a0a]">
+
+<template id="global-navigation-template"></template>
+<script>
+  class GlobalNavigation extends HTMLElement {
+    connectedCallback() {
+      const template = document.getElementById('global-navigation-template');
+      if (template && !this.hasChildNodes()) { this.appendChild(template.content.cloneNode(true)); }
+      const mainNav = this.querySelector('#main-nav');
+      const navInner = mainNav ? mainNav.querySelector('div') : null;
+      this.onScroll = () => {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        if (mainNav) {
+          if (winScroll > 50) {
+            mainNav.classList.remove('bg-transparent');
+            mainNav.classList.add('scrolled');
+            if (navInner) { navInner.classList.remove('py-6','md:py-8'); navInner.classList.add('py-4','md:py-5'); }
+          } else {
+            mainNav.classList.remove('scrolled');
+            mainNav.classList.add('bg-transparent');
+            if (navInner) { navInner.classList.add('py-6','md:py-8'); navInner.classList.remove('py-4','md:py-5'); }
+          }
+        }
+      };
+      window.addEventListener('scroll', this.onScroll);
+      this.onScroll();
+
+      this.updateNavClearance = () => {
+        if (!mainNav) return;
+        const rect = mainNav.getBoundingClientRect();
+        const clearance = Math.ceil(rect.bottom) + 24;
+        document.documentElement.style.setProperty('--nav-clearance', clearance + 'px');
+      };
+      this.updateNavClearance();
+      window.addEventListener('resize', this.updateNavClearance);
+      if (window.ResizeObserver && mainNav) {
+        this.navResizeObserver = new ResizeObserver(this.updateNavClearance);
+        this.navResizeObserver.observe(mainNav);
+      }
+      const navLogo = mainNav ? mainNav.querySelector('img') : null;
+      if (navLogo && !navLogo.complete) { navLogo.addEventListener('load', this.updateNavClearance); }
+
+      // Mobile menu toggle
+      const menuBtn = this.querySelector('#mobile-menu-btn');
+      const mobileMenu = this.querySelector('#mobile-menu');
+      if (menuBtn && mobileMenu) {
+        menuBtn.addEventListener('click', () => {
+          mobileMenu.classList.toggle('hidden');
+        });
+        mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+      }
+    }
+    disconnectedCallback() {
+      window.removeEventListener('scroll', this.onScroll);
+      window.removeEventListener('resize', this.updateNavClearance);
+      if (this.navResizeObserver) this.navResizeObserver.disconnect();
+    }
+  }
+  if (!customElements.get('global-navigation')) { customElements.define('global-navigation', GlobalNavigation); }
+</script>
+
+<global-navigation class="contents">
+  <header id="global-navigation" class="fixed top-6 left-0 right-0 z-[100] flex justify-center px-4 md:px-6 w-full pointer-events-none">
+    <nav id="main-nav" class="pointer-events-auto w-full max-w-[1280px] border border-white/15 shadow-[0_8px_32px_rgba(0,0,0,0.3)] rounded-full transition-all duration-300 opacity-0" style="animation: fadeInNav 0.6s ease-out forwards;">
+      <div class="flex w-full px-6 sm:px-10 md:px-16 py-6 md:py-8 items-center justify-between relative transition-all duration-300">
+        <div class="contents">
+          <a href="#home" class="flex-shrink-0 flex items-center group">
+            <img src="assets/logo.webp" alt="Arizona's Best Car Detailing Logo" class="h-8 md:h-10 lg:h-11 w-auto object-contain drop-shadow-md transition-transform duration-300 group-hover:scale-105">
+          </a>
+
+          <div class="hidden md:flex items-center gap-6 lg:gap-9">
+            <a href="#home" class="js-nav-link relative whitespace-nowrap text-[11px] lg:text-[13px] font-display font-semibold uppercase tracking-[0.2em] text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:scale-[1.1] origin-center inline-block">Home</a>
+            <a href="#services" class="js-nav-link relative whitespace-nowrap text-[11px] lg:text-[13px] font-display font-semibold uppercase tracking-[0.2em] text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:scale-[1.1] origin-center inline-block">Services</a>
+            <a href="#in-action" class="js-nav-link relative whitespace-nowrap text-[11px] lg:text-[13px] font-display font-semibold uppercase tracking-[0.2em] text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:scale-[1.1] origin-center inline-block">Gallery</a>
+            <a href="#reviews" class="js-nav-link relative whitespace-nowrap text-[11px] lg:text-[13px] font-display font-semibold uppercase tracking-[0.2em] text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:scale-[1.1] origin-center inline-block">Reviews</a>
+            <a href="#areas" class="js-nav-link relative whitespace-nowrap text-[11px] lg:text-[13px] font-display font-semibold uppercase tracking-[0.2em] text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:scale-[1.1] origin-center inline-block">Areas</a>
+            <a href="#contact" class="js-nav-link relative whitespace-nowrap text-[11px] lg:text-[13px] font-display font-semibold uppercase tracking-[0.2em] text-white/70 hover:text-white transition-all duration-200 ease-in-out hover:scale-[1.1] origin-center inline-block">Contact</a>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-3 md:gap-4 justify-end">
+          <a href="tel:+16025619400" class="hidden lg:inline-flex items-center gap-2 text-[11px] font-display uppercase tracking-widest text-white/70 hover:text-white transition-colors">
+            <iconify-icon icon="solar:phone-calling-linear" width="16"></iconify-icon>
+            (602) 561-9400
+          </a>
+          <a href="https://calendly.com/arizonasbestcd/car-detailing-3-hours-scottsdale-locations-clone-1" target="_blank" rel="noopener noreferrer" class="hidden md:inline-flex items-center gap-2 whitespace-nowrap text-xs font-display font-semibold uppercase tracking-[0.2em] bg-white text-black px-6 py-2.5 rounded-full hover:bg-zinc-200 transition-all duration-300 hover:scale-105 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.25)]">
+            Book Now
+          </a>
+          <button id="mobile-menu-btn" class="md:hidden text-white/70 hover:text-white transition-colors" aria-label="Open menu">
+            <iconify-icon icon="solar:hamburger-menu-linear" width="26"></iconify-icon>
+          </button>
+        </div>
+      </div>
+
+      <div id="mobile-menu" class="hidden md:hidden border-t border-white/10 px-8 py-6 flex flex-col gap-5">
+        <a href="#home" class="text-xs font-display uppercase tracking-[0.2em] text-white/80">Home</a>
+        <a href="#services" class="text-xs font-display uppercase tracking-[0.2em] text-white/80">Services</a>
+        <a href="#in-action" class="text-xs font-display uppercase tracking-[0.2em] text-white/80">Gallery</a>
+        <a href="#reviews" class="text-xs font-display uppercase tracking-[0.2em] text-white/80">Reviews</a>
+        <a href="#areas" class="text-xs font-display uppercase tracking-[0.2em] text-white/80">Areas</a>
+        <a href="#contact" class="text-xs font-display uppercase tracking-[0.2em] text-white/80">Contact</a>
+        <a href="tel:+16025619400" class="text-xs font-display uppercase tracking-[0.2em] text-white/80">(602) 561-9400</a>
+        <a href="https://calendly.com/arizonasbestcd/car-detailing-3-hours-scottsdale-locations-clone-1" target="_blank" rel="noopener noreferrer" class="mt-2 inline-flex justify-center items-center text-xs font-display font-semibold uppercase tracking-[0.2em] bg-white text-black px-6 py-3 rounded-full">Book Now</a>
+      </div>
+    </nav>
+  </header>
+</global-navigation>
+
+<div id="scroll-progress" class="fixed top-0 left-0 h-[2px] w-full z-[70] bg-gradient-to-r from-transparent via-white to-zinc-400 pointer-events-none"></div>
+
+<main class="relative z-10 w-full flex flex-col">
+
+  <!-- 1. HERO: CINEMATIC INTRODUCTION -->
+  <section id="home" class="relative w-full h-[100svh] overflow-hidden flex items-center shrink-0 bg-[#0a0a0a]">
+    <div class="absolute inset-0 z-0 bg-black">
+      <video src="assets/reel-wash.mp4" autoplay loop muted playsinline disablepictureinpicture class="absolute inset-0 w-full h-full object-cover pointer-events-none opacity-70"></video>
+      <div class="absolute inset-0 cinematic-vignette z-10 mix-blend-multiply"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/20 to-[#0a0a0a] z-10"></div>
+      <!-- Letterbox bars for cinematic framing -->
+      <div class="hidden md:block absolute top-0 left-0 right-0 h-10 lg:h-14 bg-[#0a0a0a] z-20"></div>
+      <div class="hidden md:block absolute bottom-0 left-0 right-0 h-10 lg:h-14 bg-[#0a0a0a] z-20"></div>
+    </div>
+
+    <div id="hero-content" class="relative z-30 w-full max-w-[1400px] mx-auto px-6 md:px-12 lg:px-24 flex items-center">
+      <div class="w-full max-w-5xl relative">
+        <div style="opacity:0; animation: blurReveal 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;">
+          <div class="flex items-center gap-4 mb-8">
+            <span class="w-12 h-[1px] bg-white"></span>
+            <span class="text-xs font-display font-medium tracking-widest text-white uppercase">Luxury Concierge Mobile Detailing &middot; The Valley</span>
+          </div>
+          <h1 class="font-display font-medium uppercase leading-[1.02] tracking-tighter text-5xl md:text-7xl lg:text-[6.5rem] text-white drop-shadow-2xl">
+            The Art of
+            <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-400">the Detail.</span>
+          </h1>
+        </div>
+
+        <div style="opacity:0; animation: blurReveal 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;">
+          <p class="mt-8 text-base md:text-xl text-zinc-300 font-light max-w-2xl leading-relaxed">
+            Experience the pinnacle of car care with Arizona's top mobile detailing service. Interior detailing, ceramic coating and paint correction — brought straight to your driveway, office or hotel.
+          </p>
+
+          <div class="mt-12 flex flex-col sm:flex-row items-center gap-6 w-full sm:w-auto">
+            <a href="https://calendly.com/arizonasbestcd/car-detailing-3-hours-scottsdale-locations-clone-1" target="_blank" rel="noopener noreferrer" class="group relative inline-flex items-center justify-center gap-3 bg-white text-black font-display font-medium text-xs uppercase tracking-widest px-10 py-5 rounded-full transition-all duration-500 hover:bg-zinc-200 w-full sm:w-auto neon-glow hover:scale-[1.02]">
+              <span>Book My Detail</span>
+              <iconify-icon icon="solar:alt-arrow-right-linear" width="20" class="transition-transform duration-500 group-hover:translate-x-1"></iconify-icon>
+            </a>
+            <a href="tel:+16025619400" class="group relative inline-flex items-center justify-center gap-3 border border-white/20 text-white font-display font-medium text-xs uppercase tracking-widest px-10 py-5 rounded-full transition-all duration-500 hover:bg-white/10 w-full sm:w-auto backdrop-blur-sm">
+              <iconify-icon icon="solar:phone-calling-linear" width="18"></iconify-icon>
+              <span>Call Now</span>
+            </a>
+          </div>
+
+          <div class="mt-10 flex flex-wrap items-center gap-x-8 gap-y-4">
+            <span class="flex items-center gap-2 text-sm font-display tracking-widest text-zinc-100 uppercase opacity-90">
+              <iconify-icon icon="solar:star-bold" width="18" class="text-white"></iconify-icon>5/5 Google
+            </span>
+            <span class="text-white/20 hidden sm:inline">|</span>
+            <span class="flex items-center gap-2 text-sm font-display tracking-widest text-zinc-100 uppercase opacity-90">
+              <iconify-icon icon="solar:medal-star-linear" width="18" class="text-white"></iconify-icon>15+ Years
+            </span>
+            <span class="text-white/20 hidden sm:inline">|</span>
+            <span class="flex items-center gap-2 text-sm font-display tracking-widest text-zinc-100 uppercase opacity-90">
+              <iconify-icon icon="solar:shield-check-linear" width="18" class="text-zinc-300"></iconify-icon>BBB Accredited
+            </span>
+            <span class="text-white/20 hidden sm:inline">|</span>
+            <span class="flex items-center gap-2 text-sm font-display tracking-widest text-zinc-100 uppercase opacity-90">
+              <iconify-icon icon="solar:map-point-linear" width="18" class="text-zinc-300"></iconify-icon>Phoenix, AZ
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-30 hidden md:flex flex-col items-center gap-4 opacity-0" style="animation: blurReveal 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.8s forwards;">
+      <span class="text-[10px] font-display tracking-widest uppercase text-zinc-500">Scroll</span>
+      <div class="w-[1px] h-16 bg-gradient-to-b from-zinc-500 to-transparent"></div>
+    </div>
+  </section>
+
+  <!-- 2. TRUST STRIP -->
+  <section class="relative bg-[#0a0a0a] z-20 border-b border-white/5">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-24">
+      <div class="grid grid-cols-2 md:grid-cols-4 divide-y-0 md:divide-x divide-white/10 py-10 gap-y-8">
+        <div class="flex flex-col items-center justify-center text-center reveal-on-scroll">
+          <h4 class="font-display font-medium text-2xl text-white tracking-tight mb-1">5/5</h4>
+          <span class="text-xs font-inter uppercase tracking-widest text-zinc-500">Google &amp; Yelp Rated</span>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center reveal-on-scroll" style="--reveal-delay:100ms">
+          <h4 class="font-display font-medium text-2xl text-white tracking-tight mb-1">15+ Years</h4>
+          <span class="text-xs font-inter uppercase tracking-widest text-zinc-500">Detailing Expertise</span>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center reveal-on-scroll" style="--reveal-delay:200ms">
+          <h4 class="font-display font-medium text-2xl text-white tracking-tight mb-1">BBB</h4>
+          <span class="text-xs font-inter uppercase tracking-widest text-zinc-500">Accredited Business</span>
+        </div>
+        <div class="flex flex-col items-center justify-center text-center reveal-on-scroll" style="--reveal-delay:300ms">
+          <h4 class="font-display font-medium text-2xl text-white tracking-tight mb-1">100%</h4>
+          <span class="text-xs font-inter uppercase tracking-widest text-zinc-500">Mobile &middot; We Come To You</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SERVICES: ASYMMETRICAL EDITORIAL GRID -->
+  <section id="services" class="relative py-24 md:py-32 bg-[#0a0a0a] z-20">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-24">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16 md:mb-24 reveal-on-scroll">
+        <div>
+          <div class="flex items-center gap-4 mb-6">
+            <span class="w-12 h-[1px] bg-white"></span>
+            <span class="text-xs font-display tracking-widest text-white uppercase">Services</span>
+          </div>
+          <h2 class="font-display font-medium uppercase tracking-tighter text-4xl md:text-5xl lg:text-6xl text-white">
+            Every Detail,<br>Done Right
+          </h2>
+        </div>
+        <p class="text-zinc-400 font-light max-w-md border-l-2 border-white/20 pl-6 text-lg leading-[1.8] tracking-wide">
+          From a quick interior refresh to full paint correction and years-long ceramic protection — showroom-level care, brought to your location.
+        </p>
+      </div>
+
+      <!-- Row 1: Interior Detailing — video, media left -->
+      <div class="grid lg:grid-cols-12 gap-8 lg:gap-16 items-center py-14 border-t hairline">
+        <div class="lg:col-span-7 reveal-on-scroll order-2 lg:order-1">
+          <div class="relative rounded-[1.5rem] overflow-hidden aspect-[16/10] ring-1 ring-white/10 shadow-[0_25px_60px_rgba(0,0,0,0.6)]">
+            <video src="assets/reel-detail.mp4" autoplay loop muted playsinline disablepictureinpicture preload="metadata" class="absolute inset-0 w-full h-full object-cover"></video>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none"></div>
+          </div>
+        </div>
+        <div class="lg:col-span-5 reveal-on-scroll order-1 lg:order-2" style="--reveal-delay:100ms">
+          <span class="font-display text-6xl md:text-7xl text-white/10 font-medium block mb-4">01</span>
+          <h3 class="font-display font-medium uppercase text-3xl md:text-4xl text-white tracking-tight mb-4">Interior Detailing</h3>
+          <p class="text-zinc-400 font-light leading-relaxed mb-6">
+            Deep vacuuming, steam cleaning and leather conditioning to erase every crumb, stain and smell — down to spills that have baked into the upholstery in the Phoenix heat.
+          </p>
+          <div class="flex items-center justify-between border-t hairline pt-6">
+            <span class="text-xs font-display uppercase tracking-widest text-zinc-500">Starting At</span>
+            <span class="text-2xl font-display text-white">$150</span>
+          </div>
+          <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-xs font-display uppercase tracking-widest text-white group">
+            Get a quote
+            <iconify-icon icon="solar:arrow-right-linear" width="16" class="transform group-hover:translate-x-2 transition-transform duration-500"></iconify-icon>
+          </a>
+        </div>
+      </div>
+
+      <!-- Row 2: Exterior & Complete Detailing — photo right -->
+      <div class="grid lg:grid-cols-12 gap-8 lg:gap-16 items-center py-14 border-t hairline">
+        <div class="lg:col-span-5 reveal-on-scroll">
+          <span class="font-display text-6xl md:text-7xl text-white/10 font-medium block mb-4">02</span>
+          <h3 class="font-display font-medium uppercase text-3xl md:text-4xl text-white tracking-tight mb-4">Exterior &amp; Complete Detailing</h3>
+          <p class="text-zinc-400 font-light leading-relaxed mb-6">
+            Hand wash, clay bar treatment and a deep gloss finish that lifts road grime without stripping your paint's shine — or go complete, inside and out, in a single visit.
+          </p>
+          <div class="flex items-center justify-between border-t hairline pt-6">
+            <span class="text-xs font-display uppercase tracking-widest text-zinc-500">Exterior / Complete From</span>
+            <span class="text-2xl font-display text-white">$150 / $200</span>
+          </div>
+          <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-xs font-display uppercase tracking-widest text-white group">
+            Get a quote
+            <iconify-icon icon="solar:arrow-right-linear" width="16" class="transform group-hover:translate-x-2 transition-transform duration-500"></iconify-icon>
+          </a>
+        </div>
+        <div class="lg:col-span-7 reveal-on-scroll" style="--reveal-delay:100ms">
+          <div class="relative rounded-[1.5rem] overflow-hidden aspect-[16/10] ring-1 ring-white/10 shadow-[0_25px_60px_rgba(0,0,0,0.6)] group">
+            <img src="assets/photo-detailer-wash.webp" alt="Technician hand-washing a vehicle on location" loading="lazy" decoding="async" class="absolute inset-0 w-full h-full object-cover object-top transition-transform duration-[1.5s] ease-out group-hover:scale-105">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3: Ceramic Coating & Paint Correction — media left -->
+      <div class="grid lg:grid-cols-12 gap-8 lg:gap-16 items-center py-14 border-t border-b hairline">
+        <div class="lg:col-span-7 reveal-on-scroll order-2 lg:order-1">
+          <div class="relative rounded-[1.5rem] overflow-hidden aspect-[16/10] ring-1 ring-white/10 shadow-[0_25px_60px_rgba(0,0,0,0.6)] group">
+            <img src="assets/photo-bronco.webp" alt="Ford Bronco after ceramic coating and paint correction" loading="lazy" decoding="async" class="absolute inset-0 w-full h-full object-cover object-top transition-transform duration-[1.5s] ease-out group-hover:scale-105">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent pointer-events-none"></div>
+          </div>
+        </div>
+        <div class="lg:col-span-5 reveal-on-scroll order-1 lg:order-2" style="--reveal-delay:100ms">
+          <span class="font-display text-6xl md:text-7xl text-white/10 font-medium block mb-4">03</span>
+          <h3 class="font-display font-medium uppercase text-3xl md:text-4xl text-white tracking-tight mb-4">Ceramic Coating &amp; Paint Correction</h3>
+          <p class="text-zinc-400 font-light leading-relaxed mb-6">
+            Machine polishing removes swirls and light scratches before we seal in a hydrophobic, UV-resistant ceramic layer — critical protection against the Valley's intense sun and heat.
+          </p>
+          <div class="flex items-center justify-between border-t hairline pt-6">
+            <span class="text-xs font-display uppercase tracking-widest text-zinc-500">Ceramic Coating From</span>
+            <span class="text-2xl font-display text-white">$700</span>
+          </div>
+          <a href="#contact" class="mt-6 inline-flex items-center gap-2 text-xs font-display uppercase tracking-widest text-white group">
+            Get a quote
+            <iconify-icon icon="solar:arrow-right-linear" width="16" class="transform group-hover:translate-x-2 transition-transform duration-500"></iconify-icon>
+          </a>
+        </div>
+      </div>
+
+      <p class="text-center text-zinc-500 text-sm font-light mt-10">
+        Also available: Maintenance Wash from $45 &middot; Motorcycle &amp; RV detailing by request &middot; Call for a personalized quote.
+      </p>
+    </div>
+  </section>
+
+  <!-- 4. BRAND STORY / MANIFESTO -->
+  <section id="story" class="relative py-24 md:py-32 bg-[#0a0a0a] overflow-hidden z-20 border-t border-white/5">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-24">
+      <div class="relative">
+        <div class="relative w-full aspect-[16/9] md:aspect-[21/9] md:min-h-[420px] lg:min-h-[500px] rounded-[2rem] overflow-hidden ring-1 ring-white/10 shadow-[0_30px_80px_rgba(0,0,0,0.6)] reveal-on-scroll">
+          <img src="assets/photo-detailer-wash.webp" alt="Studio-grade detailing delivered on location" loading="lazy" decoding="async" class="absolute inset-0 w-full h-full object-cover object-[50%_20%]">
+          <div class="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/10"></div>
+        </div>
+
+        <div class="relative md:absolute md:bottom-0 md:left-0 md:right-0 md:p-12 lg:p-16 mt-8 md:mt-0 reveal-on-scroll" style="--reveal-delay:150ms">
+          <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-white text-[10px] font-display uppercase tracking-widest mb-6">
+            <iconify-icon icon="solar:map-point-linear" width="16"></iconify-icon>
+            Mobile Concierge Approach
+          </span>
+          <h2 class="font-display font-medium uppercase tracking-tighter text-4xl md:text-6xl lg:text-7xl text-white leading-[1.02] max-w-3xl">
+            Studio-Grade Care.
+            <br>
+            Delivered to Your Location.
+          </h2>
+          <p class="mt-6 text-zinc-300 font-light leading-relaxed max-w-xl text-base md:text-lg">
+            No shop visit, no downtime. Our team brings over a decade of experience — and every tool a full studio has — straight to your home, office or hotel, anywhere in the Valley.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. WHY CHOOSE US -->
+  <section id="why-us" class="relative py-24 bg-[#0a0a0a] z-20 overflow-hidden border-t border-white/5">
+    <div class="absolute inset-0 cinematic-vignette opacity-80 pointer-events-none"></div>
+    <div class="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-24 relative z-10">
+      <div class="flex flex-col items-center text-center mb-16 reveal-on-scroll">
+        <div class="flex items-center gap-4 mb-6">
+          <span class="w-12 h-[1px] bg-white"></span>
+          <span class="text-xs font-display tracking-widest text-white uppercase">Why Choose Us</span>
+          <span class="w-12 h-[1px] bg-white"></span>
+        </div>
+        <h2 class="font-display font-medium uppercase tracking-tighter text-4xl md:text-5xl text-white max-w-2xl">
+          The Valley's Most Trusted Name in Car Care
+        </h2>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-10 lg:gap-16">
+        <div class="flex flex-col items-start gap-6 group reveal-on-scroll">
+          <div class="w-14 h-14 rounded-full border border-white/20 bg-white/5 flex items-center justify-center shrink-0 text-white group-hover:bg-white group-hover:text-black transition-all duration-500">
+            <iconify-icon icon="solar:verified-check-linear" width="28"></iconify-icon>
+          </div>
+          <div>
+            <h4 class="font-display font-semibold uppercase text-lg mb-2 tracking-wide text-white">Exceptional Quality</h4>
+            <p class="text-sm md:text-base text-zinc-400 font-light leading-relaxed">We use only the finest products and techniques to ensure your vehicle receives the care it deserves.</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-start gap-6 group reveal-on-scroll" style="--reveal-delay:100ms">
+          <div class="w-14 h-14 rounded-full border border-white/20 bg-white/5 flex items-center justify-center shrink-0 text-white group-hover:bg-white group-hover:text-black transition-all duration-500">
+            <iconify-icon icon="solar:delivery-linear" width="28"></iconify-icon>
+          </div>
+          <div>
+            <h4 class="font-display font-semibold uppercase text-lg mb-2 tracking-wide text-white">Convenience at Your Doorstep</h4>
+            <p class="text-sm md:text-base text-zinc-400 font-light leading-relaxed">Our mobile service means we come to you, saving you time without compromising on quality.</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-start gap-6 group reveal-on-scroll" style="--reveal-delay:200ms">
+          <div class="w-14 h-14 rounded-full border border-white/20 bg-white/5 flex items-center justify-center shrink-0 text-white group-hover:bg-white group-hover:text-black transition-all duration-500">
+            <iconify-icon icon="solar:medal-star-linear" width="28"></iconify-icon>
+          </div>
+          <div>
+            <h4 class="font-display font-semibold uppercase text-lg mb-2 tracking-wide text-white">Trusted Expertise</h4>
+            <p class="text-sm md:text-base text-zinc-400 font-light leading-relaxed">15+ years of experience and a dedication to perfection — we guarantee your satisfaction with every service.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. PROCESS -->
+  <section class="relative py-24 md:py-32 z-20 bg-[#0a0a0a] border-t border-white/5">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-24">
+      <div class="flex flex-col items-center text-center mb-20 reveal-on-scroll">
+        <div class="flex items-center gap-4 mb-6">
+          <span class="w-12 h-[1px] bg-white"></span>
+          <span class="text-xs font-display tracking-widest text-white uppercase">How We Work</span>
+          <span class="w-12 h-[1px] bg-white"></span>
+        </div>
+        <h2 class="font-display font-medium uppercase tracking-tighter text-4xl md:text-5xl text-white">Process to Perfection</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-12 relative">
+        <div class="hidden md:block absolute top-[40px] left-[10%] right-[10%] h-[1px] bg-white/5 z-0 pointer-events-none"></div>
+
+        <div class="relative z-10 reveal-on-scroll text-center group">
+          <div class="w-20 h-20 mx-auto rounded-full bg-[#0a0a0a] border border-white/10 flex items-center justify-center mb-6 group-hover:border-white transition-colors duration-500">
+            <span class="font-display font-medium text-2xl text-white">01</span>
+          </div>
+          <h3 class="font-display font-medium text-lg text-white uppercase tracking-tight mb-3">Quick Quote</h3>
+          <p class="text-sm font-light text-zinc-300">Tell us about your vehicle and location — we typically respond within minutes.</p>
+        </div>
+        <div class="relative z-10 reveal-on-scroll text-center group" style="--reveal-delay:100ms">
+          <div class="w-20 h-20 mx-auto rounded-full bg-[#0a0a0a] border border-white/10 flex items-center justify-center mb-6 group-hover:border-white transition-colors duration-500">
+            <span class="font-display font-medium text-2xl text-white">02</span>
+          </div>
+          <h3 class="font-display font-medium text-lg text-white uppercase tracking-tight mb-3">Book Your Slot</h3>
+          <p class="text-sm font-light text-zinc-200">Pick a time that works — often same-day — and confirm through Calendly.</p>
+        </div>
+        <div class="relative z-10 reveal-on-scroll text-center group" style="--reveal-delay:200ms">
+          <div class="w-20 h-20 mx-auto rounded-full bg-[#0a0a0a] border border-white/30 flex items-center justify-center mb-6 neon-glow">
+            <span class="font-display font-medium text-2xl text-white">03</span>
+          </div>
+          <h3 class="font-display font-medium text-lg text-white uppercase tracking-tight mb-3">We Come to You</h3>
+          <p class="font-light text-sm text-zinc-200">Our mobile unit arrives fully equipped at your home, office or dealership lot.</p>
+        </div>
+        <div class="relative z-10 reveal-on-scroll text-center group" style="--reveal-delay:300ms">
+          <div class="w-20 h-20 mx-auto rounded-full bg-[#0a0a0a] border border-white/10 flex items-center justify-center mb-6 group-hover:border-white transition-colors duration-500">
+            <span class="font-display font-medium text-2xl text-white">04</span>
+          </div>
+          <h3 class="font-display font-medium text-lg text-white uppercase tracking-tight mb-3">Final Walkthrough</h3>
+          <p class="text-sm font-light text-zinc-200">We review every panel with you before we leave — your satisfaction, guaranteed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. IN ACTION: DUAL LETTERBOX PLAYER -->
+  <section id="in-action" class="relative py-24 md:py-32 bg-[#0a0a0a] z-20 border-t border-white/5 overflow-hidden">
+    <div class="absolute top-1/2 right-0 w-[700px] h-[700px] bg-white/5 rounded-full blur-[140px] -translate-y-1/2 translate-x-1/2 pointer-events-none"></div>
+    <div class="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-24 relative z-10">
+      <div class="flex flex-col items-center text-center mb-16 reveal-on-scroll">
+        <div class="flex items-center gap-4 mb-6">
+          <span class="w-12 h-[1px] bg-white"></span>
+          <span class="text-xs font-display tracking-widest text-zinc-400 uppercase">Straight From the Job Site</span>
+          <span class="w-12 h-[1px] bg-white"></span>
+        </div>
+        <h2 class="font-display font-medium uppercase tracking-tighter text-4xl md:text-5xl text-white max-w-2xl">Watch Us In Action</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div class="relative reveal-on-scroll group rounded-[1.5rem] overflow-hidden ring-1 ring-white/10 shadow-[0_25px_60px_rgba(0,0,0,0.6)] aspect-[4/5]">
+          <video preload="metadata" src="assets/reel-wash.mp4" autoplay loop muted playsinline disablepictureinpicture class="absolute inset-0 w-full h-full object-cover"></video>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/30 pointer-events-none"></div>
+          <div class="absolute bottom-6 left-6 right-6">
+            <span class="text-[10px] uppercase tracking-widest font-display text-white bg-black/40 backdrop-blur-md px-4 py-2 rounded-full border border-white/10 inline-block">Exterior Hand Wash</span>
+          </div>
+        </div>
+        <div class="relative reveal-on-scroll group rounded-[1.5rem] overflow-hidden ring-1 ring-white/10 shadow-[0_25px_60px_rgba(0,0,0,0.6)] aspect-[4/5]" style="--reveal-delay:150ms">
+          <video preload="metadata" src="assets/reel-detail.mp4" autoplay loop muted playsinline disablepictureinpicture class="absolute inset-0 w-full h-full object-cover"></video>
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/30 pointer-events-none"></div>
+          <div class="absolute bottom-6 left-6 right-6">
+            <span class="text-[10px] uppercase tracking-widest font-display text-white bg-black/40 backdrop-blur-md px-4 py-2 rounded-full border border-white/10 inline-block">On-Location Interior Detail</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-center text-zinc-500 text-sm font-light mt-12 max-w-md mx-auto">
+        Real footage from real jobs around Phoenix — no stock photos, no filters.
+      </p>
+    </div>
+  </section>
+
+  <!-- 8. TESTIMONIAL: EDITORIAL, NO CARD -->
+  <section id="reviews" class="relative py-24 md:py-32 bg-[#0a0a0a] overflow-hidden z-20 border-t border-white/5">
+    <div class="max-w-[1000px] mx-auto px-6 md:px-12 lg:px-24 text-center reveal-on-scroll">
+      <div class="flex items-center justify-center gap-1 text-white mb-8">
+        <iconify-icon icon="solar:star-bold" width="20"></iconify-icon>
+        <iconify-icon icon="solar:star-bold" width="20"></iconify-icon>
+        <iconify-icon icon="solar:star-bold" width="20"></iconify-icon>
+        <iconify-icon icon="solar:star-bold" width="20"></iconify-icon>
+        <iconify-icon icon="solar:star-bold" width="20"></iconify-icon>
+      </div>
+      <iconify-icon icon="solar:quote-up-bold" width="40" class="text-white/15 mb-6 inline-block"></iconify-icon>
+      <p class="font-display font-light text-2xl md:text-4xl leading-[1.4] text-white tracking-tight">
+        We had a semi-urgent, out-of-town emergency — a spilled smoothie that had baked into every inch of the car in the Phoenix heat. Aaron replied within minutes, quoted us that morning and had the car looking brand new by noon the same day. They came straight to our hotel, took Zelle on the spot, and did it all with a smile.
+      </p>
+      <div class="mt-10 flex items-center justify-center gap-4">
+        <div class="w-14 h-14 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-white font-display font-semibold">WS</div>
+        <div class="text-left">
+          <h4 class="font-display font-semibold text-sm text-white uppercase tracking-widest">Wren S.</h4>
+          <span class="text-xs text-zinc-500 font-inter uppercase tracking-widest">Verified Google Review &middot; Washington, DC</span>
+        </div>
+      </div>
+      <a href="https://www.google.com/search?q=Arizona%27s+Best+Car+Detailing+Phoenix+reviews" target="_blank" rel="noopener noreferrer" class="mt-8 inline-flex items-center gap-2 text-xs font-display uppercase tracking-widest text-zinc-400 hover:text-white transition-colors group">
+        See all reviews on Google
+        <iconify-icon icon="solar:arrow-right-linear" width="16" class="transform group-hover:translate-x-1 transition-transform"></iconify-icon>
+      </a>
+    </div>
+  </section>
+
+  <!-- 9. SERVICE AREAS & MAP -->
+  <section id="areas" class="relative py-24 md:py-32 bg-[#0a0a0a] z-20 border-t border-white/5">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-24">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-16 reveal-on-scroll">
+        <div>
+          <div class="flex items-center gap-4 mb-6">
+            <span class="w-12 h-[1px] bg-white"></span>
+            <span class="text-xs font-display tracking-widest text-white uppercase">Where We Work</span>
+          </div>
+          <h2 class="font-display font-medium uppercase tracking-tighter text-4xl md:text-5xl lg:text-6xl text-white">
+            Proudly Serving<br>the Greater Phoenix Area
+          </h2>
+        </div>
+        <p class="text-zinc-400 font-light max-w-md border-l-2 border-white/20 pl-6 text-lg leading-[1.8] tracking-wide">
+          Find out if we service your location, or call us directly — we're happy to travel for the right job.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-5 gap-12 lg:gap-16 items-start">
+        <div class="lg:col-span-2 reveal-on-scroll">
+          <ul class="grid grid-cols-2 gap-x-8 gap-y-5">
+            <li class="flex items-center gap-3 text-white font-light text-base"><iconify-icon icon="solar:map-point-linear" width="16" class="text-zinc-500 shrink-0"></iconify-icon>Phoenix</li>
+            <li class="flex items-center gap-3 text-white font-light text-base"><iconify-icon icon="solar:map-point-linear" width="16" class="text-zinc-500 shrink-0"></iconify-icon>Scottsdale</li>
+            <li class="flex items-center gap-3 text-white font-light text-base"><iconify-icon icon="solar:map-point-linear" width="16" class="text-zinc-500 shrink-0"></iconify-icon>North Scottsdale</li>
+            <li class="flex items-center gap-3 text-white font-light text-base"><iconify-icon icon="solar:map-point-linear" width="16" class="text-zinc-500 shrink-0"></iconify-icon>Paradise Valley</li>
+            <li class="flex items-center gap-3 text-white font-light text-base"><iconify-icon icon="solar:map-point-linear" width="16" class="text-zinc-500 shrink-0"></iconify-icon>Gilbert</li>
+            <li class="flex items-center gap-3 text-white font-light text-base"><iconify-icon icon="solar:map-point-linear" width="16" class="text-zinc-500 shrink-0"></iconify-icon>Glendale</li>
+            <li class="flex items-center gap-3 text-white font-light text-base"><iconify-icon icon="solar:map-point-linear" width="16" class="text-zinc-500 shrink-0"></iconify-icon>Chandler</li>
+            <li class="flex items-center gap-3 text-white font-light text-base"><iconify-icon icon="solar:map-point-linear" width="16" class="text-zinc-500 shrink-0"></iconify-icon>Mesa</li>
+            <li class="flex items-center gap-3 text-white font-light text-base"><iconify-icon icon="solar:map-point-linear" width="16" class="text-zinc-500 shrink-0"></iconify-icon>Peoria</li>
+            <li class="flex items-center gap-3 text-white font-light text-base"><iconify-icon icon="solar:map-point-linear" width="16" class="text-zinc-500 shrink-0"></iconify-icon>Avondale</li>
+          </ul>
+          <a href="https://calendly.com/arizonasbestcd/car-detailing-3-hours-scottsdale-locations-clone-1" target="_blank" rel="noopener noreferrer" class="mt-10 inline-flex items-center gap-3 border border-white/20 text-white font-display font-medium text-xs uppercase tracking-widest px-8 py-4 rounded-full transition-all duration-500 hover:bg-white/10">
+            Book Your Appointment
+            <iconify-icon icon="solar:arrow-right-linear" width="16"></iconify-icon>
+          </a>
+        </div>
+
+        <div class="lg:col-span-3 reveal-on-scroll" style="--reveal-delay:100ms">
+          <div class="w-full aspect-[4/3] md:aspect-[16/10] rounded-[2rem] overflow-hidden ring-1 ring-white/10 shadow-[0_25px_60px_rgba(0,0,0,0.5)] grayscale-[0.3] contrast-125 brightness-90">
+            <iframe
+              title="Arizona's Best Car Detailing service area map"
+              src="https://maps.google.com/maps?q=Phoenix,AZ&t=m&z=9&output=embed&iwloc=near"
+              class="w-full h-full border-0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. STRONG CTA + CONTACT FORM -->
+  <section id="contact" class="relative py-24 md:py-32 overflow-hidden z-20 border-t border-white/5" style="background: radial-gradient(circle, #2a2a2a 0%, #161616 50%, #050505 100%);">
+    <div class="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-24 relative z-10">
+      <div class="grid lg:grid-cols-5 gap-16 md:gap-24 items-start">
+        <div class="lg:col-span-2 reveal-on-scroll">
+          <div class="flex items-center gap-4 mb-6">
+            <span class="w-12 h-[1px] bg-white"></span>
+            <span class="text-xs font-display tracking-widest text-zinc-200 uppercase">Book Your Slot</span>
+          </div>
+          <h2 class="font-display font-medium uppercase tracking-tighter text-5xl md:text-6xl text-white mb-8 leading-[1.1]">
+            Your Car Deserves More Than a
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-zinc-400"> Basic Wash.</span>
+          </h2>
+          <p class="text-zinc-300 font-light leading-relaxed mb-10 text-lg">
+            Slots fill fast, especially before summer. Book directly through Calendly, or send us your details and we'll follow up with a free quote.
+          </p>
+
+          <div class="space-y-8">
+            <div class="flex items-start gap-6">
+              <div class="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center shrink-0 text-white"><iconify-icon icon="solar:map-point-linear" width="24"></iconify-icon></div>
+              <div class="pt-1">
+                <h4 class="text-[10px] uppercase font-medium text-zinc-200 tracking-widest font-display mb-1">Service Area</h4>
+                <p class="text-sm text-white font-light">Phoenix, AZ &amp; the greater Valley</p>
+                <div class="inline-flex gap-2 text-zinc-300 bg-white/5 border-white/20 border rounded-lg mt-3 px-3 py-2 items-center">
+                  <iconify-icon icon="solar:delivery-linear" width="16" class="text-white shrink-0"></iconify-icon>
+                  <span class="text-xs font-light">100% mobile — we come to you, no shop visit needed.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-6">
+              <div class="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center shrink-0 text-white"><iconify-icon icon="solar:phone-calling-linear" width="24"></iconify-icon></div>
+              <div class="pt-1">
+                <h4 class="text-[10px] uppercase font-medium text-zinc-200 tracking-widest font-display mb-1">Phone</h4>
+                <a href="tel:+16025619400" class="text-sm text-white font-light hover:text-zinc-300 transition-colors block">(602) 561-9400</a>
+                <span class="text-xs text-zinc-500 font-light">Support center, 7am – 7pm daily</span>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-6">
+              <div class="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center shrink-0 text-white"><iconify-icon icon="solar:calendar-linear" width="24"></iconify-icon></div>
+              <div class="pt-1">
+                <h4 class="text-[10px] uppercase font-medium text-zinc-200 tracking-widest font-display mb-1">Book Instantly</h4>
+                <a href="https://calendly.com/arizonasbestcd/car-detailing-3-hours-scottsdale-locations-clone-1" target="_blank" rel="noopener noreferrer" class="text-sm text-white font-light hover:text-zinc-300 transition-colors block">Schedule via Calendly</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="lg:col-span-3 bg-[#0a0a0a] border border-white/5 p-8 md:p-12 rounded-[2rem] reveal-on-scroll" style="--reveal-delay:200ms">
+          <form action="#" method="POST" class="space-y-8" onsubmit="return false;">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="space-y-3">
+                <label for="name" class="font-display text-[10px] uppercase tracking-widest text-zinc-500 pl-1">Full Name</label>
+                <input type="text" id="name" name="name" class="form-input bg-transparent border-t-0 border-x-0 border-b-white/10 rounded-none px-1 py-3 focus:border-b-white focus:bg-transparent focus:shadow-none transition-colors" required placeholder="John Doe">
+              </div>
+              <div class="space-y-3">
+                <label for="phone" class="font-display text-[10px] uppercase tracking-widest text-zinc-500 pl-1">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="form-input bg-transparent border-t-0 border-x-0 border-b-white/10 rounded-none px-1 py-3 focus:border-b-white focus:bg-transparent focus:shadow-none transition-colors" required placeholder="(602) 555-0123">
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <label for="email" class="font-display text-[10px] uppercase tracking-widest text-zinc-500 pl-1">Email Address</label>
+              <input type="email" id="email" name="email" class="form-input bg-transparent border-t-0 border-x-0 border-b-white/10 rounded-none px-1 py-3 focus:border-b-white focus:bg-transparent focus:shadow-none transition-colors" required placeholder="john@email.com">
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="space-y-3">
+                <label for="service" class="font-display text-[10px] uppercase tracking-widest text-zinc-500 pl-1">Choose a Service</label>
+                <div class="relative">
+                  <select id="service" name="service" class="form-input bg-transparent border-t-0 border-x-0 border-b-white/10 rounded-none px-1 py-3 focus:border-b-white focus:bg-transparent focus:shadow-none transition-colors appearance-none relative z-10" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="interior">Interior Detailing</option>
+                    <option value="exterior">Exterior Detailing</option>
+                    <option value="complete">Complete Detailing</option>
+                    <option value="ceramic">Ceramic Coating</option>
+                    <option value="paint-correction">Paint Correction</option>
+                    <option value="maintenance">Maintenance Wash</option>
+                    <option value="other">Other / Not Sure</option>
+                  </select>
+                  <iconify-icon icon="solar:alt-arrow-down-linear" width="20" class="absolute right-2 top-1/2 -translate-y-1/2 text-zinc-600 z-0 pointer-events-none"></iconify-icon>
+                </div>
+              </div>
+              <div class="space-y-3">
+                <label for="city" class="font-display text-[10px] uppercase tracking-widest text-zinc-500 pl-1">Your City</label>
+                <div class="relative">
+                  <select id="city" name="city" class="form-input bg-transparent border-t-0 border-x-0 border-b-white/10 rounded-none px-1 py-3 focus:border-b-white focus:bg-transparent focus:shadow-none transition-colors appearance-none relative z-10" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="phoenix">Phoenix</option>
+                    <option value="scottsdale">Scottsdale</option>
+                    <option value="north-scottsdale">North Scottsdale</option>
+                    <option value="paradise-valley">Paradise Valley</option>
+                    <option value="gilbert">Gilbert</option>
+                    <option value="glendale">Glendale</option>
+                    <option value="chandler">Chandler</option>
+                    <option value="mesa">Mesa</option>
+                    <option value="peoria">Peoria</option>
+                    <option value="avondale">Avondale</option>
+                  </select>
+                  <iconify-icon icon="solar:alt-arrow-down-linear" width="20" class="absolute right-2 top-1/2 -translate-y-1/2 text-zinc-600 z-0 pointer-events-none"></iconify-icon>
+                </div>
+              </div>
+            </div>
+
+            <div class="space-y-3">
+              <label for="message" class="font-display text-[10px] uppercase tracking-widest text-zinc-500 pl-1">Vehicle Make / Model &amp; Details</label>
+              <textarea id="message" name="message" rows="3" class="form-input resize-none bg-transparent border-t-0 border-x-0 border-b-white/10 rounded-none px-1 py-3 focus:border-b-white focus:bg-transparent focus:shadow-none transition-colors" required placeholder="E.g. 2022 BMW X5, want full interior + ceramic coating..."></textarea>
+            </div>
+
+            <div class="pt-6">
+              <button type="submit" class="w-full group relative inline-flex items-center justify-center gap-3 bg-white text-black font-display font-medium text-xs uppercase tracking-widest px-8 py-5 rounded-full transition-all duration-500 hover:bg-zinc-200 border-none hover:scale-[1.02]">
+                <span>Get My Free Quote</span>
+                <iconify-icon icon="solar:plain-3-linear" width="20" class="transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-500"></iconify-icon>
+              </button>
+              <p class="text-center mt-4 text-[10px] text-zinc-500 font-inter uppercase tracking-widest">
+                Prefer to skip the form?
+                <a href="https://calendly.com/arizonasbestcd/car-detailing-3-hours-scottsdale-locations-clone-1" target="_blank" rel="noopener noreferrer" class="text-white underline hover:no-underline">Book directly on Calendly</a>
+              </p>
+              <p class="text-center mt-6 text-[10px] text-zinc-600 font-inter uppercase tracking-widest flex justify-center items-center gap-2">
+                <iconify-icon icon="solar:lock-password-linear"></iconify-icon>
+                We reply within one business day
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- 11. FOOTER -->
+<footer class="bg-black pt-20 pb-10 px-6 md:px-12 lg:px-24 relative z-20">
+  <div class="max-w-[1400px] mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-16 mb-16">
+      <div class="md:col-span-2">
+        <a href="#home" class="inline-block mb-6 group">
+          <img src="assets/logo.webp" alt="Arizona's Best Car Detailing Logo" loading="lazy" decoding="async" class="h-10 md:h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300">
+        </a>
+        <p class="text-zinc-500 font-light text-sm max-w-sm mb-8 leading-relaxed">
+          Luxury concierge mobile car detailing serving Phoenix and the greater Valley. Interior detailing, ceramic coating and paint correction, delivered wherever you are.
+        </p>
+        <div class="flex items-center gap-4">
+          <a href="https://www.instagram.com/arizonasbestcardetailing/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-zinc-400 hover:text-white hover:border-white hover:scale-110 transition-all duration-300"><iconify-icon icon="mdi:instagram" width="20"></iconify-icon></a>
+          <a href="https://www.facebook.com/profile.php?id=100094406356971" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-zinc-400 hover:text-white hover:border-white hover:scale-110 transition-all duration-300"><iconify-icon icon="mdi:facebook" width="20"></iconify-icon></a>
+          <a href="https://www.tiktok.com/@arizonasbestcardetailing" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-zinc-400 hover:text-white hover:border-white hover:scale-110 transition-all duration-300"><iconify-icon icon="ic:baseline-tiktok" width="18"></iconify-icon></a>
+          <a href="https://wa.me/16025619400" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-zinc-400 hover:text-white hover:border-white hover:scale-110 transition-all duration-300"><iconify-icon icon="mdi:whatsapp" width="20"></iconify-icon></a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="font-display font-medium text-[10px] text-zinc-600 uppercase tracking-widest mb-6">Services</h4>
+        <ul class="space-y-4">
+          <li><a href="#services" class="text-zinc-400 hover:text-white transition-colors text-sm font-light">Interior Detailing</a></li>
+          <li><a href="#services" class="text-zinc-400 hover:text-white transition-colors text-sm font-light">Exterior &amp; Complete Detailing</a></li>
+          <li><a href="#services" class="text-zinc-400 hover:text-white transition-colors text-sm font-light">Ceramic Coating</a></li>
+          <li><a href="#services" class="text-zinc-400 hover:text-white transition-colors text-sm font-light">Paint Correction</a></li>
+          <li><a href="#services" class="text-zinc-400 hover:text-white transition-colors text-sm font-light">Maintenance Wash</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-display font-medium text-[10px] text-zinc-600 uppercase tracking-widest mb-6">Navigate</h4>
+        <ul class="space-y-4">
+          <li><a href="#home" class="text-zinc-400 hover:text-white transition-colors text-sm font-light">Home</a></li>
+          <li><a href="#why-us" class="text-zinc-400 hover:text-white transition-colors text-sm font-light">About</a></li>
+          <li><a href="#in-action" class="text-zinc-400 hover:text-white transition-colors text-sm font-light">Gallery</a></li>
+          <li><a href="#reviews" class="text-zinc-400 hover:text-white transition-colors text-sm font-light">Reviews</a></li>
+          <li><a href="#areas" class="text-zinc-400 hover:text-white transition-colors text-sm font-light">Service Areas</a></li>
+          <li><a href="#contact" class="text-zinc-400 hover:text-white transition-colors text-sm font-light">Contact</a></li>
+        </ul>
+        <div class="flex items-center gap-2 mt-8 text-white">
+          <iconify-icon icon="solar:star-bold" width="16"></iconify-icon>
+          <span class="text-sm font-display font-medium text-white">5.0</span>
+          <span class="text-xs text-zinc-500">(Google &amp; Yelp)</span>
+        </div>
+        <p class="text-xs text-zinc-500 mt-2">Support center: 7am – 7pm daily</p>
+      </div>
+    </div>
+
+    <div class="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
+      <p class="text-zinc-600 text-[10px] font-display uppercase tracking-widest">&copy; 2026 Arizona's Best Car Detailing. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="tel:+16025619400" class="text-zinc-600 hover:text-white text-[10px] font-display uppercase tracking-widest transition-colors">(602) 561-9400</a>
+        <a href="https://arizonasbestcd.com" target="_blank" rel="noopener noreferrer" class="text-zinc-600 hover:text-white text-[10px] font-display uppercase tracking-widest transition-colors">arizonasbestcd.com</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Sticky mobile call button -->
+<a href="tel:+16025619400" class="md:hidden fixed bottom-6 right-6 z-[90] w-14 h-14 rounded-full bg-white flex items-center justify-center text-black shadow-[0_10px_30px_rgba(255,255,255,0.35)]">
+  <iconify-icon icon="solar:phone-calling-bold" width="24"></iconify-icon>
+</a>
+
+<script>
+  // Scroll Progress Line
+  window.addEventListener('scroll', () => {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+    const progressBar = document.getElementById('scroll-progress');
+    if (progressBar) { progressBar.style.transform = `scaleX(${scrolled / 100})`; }
+  });
+
+  // Premium Reveal on Scroll Observer
+  const observerOptions = { root: null, rootMargin: '0px', threshold: 0.15 };
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+  document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
